@@ -1219,7 +1219,7 @@ else:
     st.caption(f"🕒 Reporte generado a partir del último cálculo realizado: {r['fecha']}")
 
     # ── Resumen ejecutivo ──────────────────────────────────────
-    st.subheader("🧾 Resumen ejecutivo")
+    st.subheader("🧾 Resumen")
     cob_txt = f"cubriendo el **{r['cobertura_deseada']}%** del consumo de {r['mes_diseno']}" \
               if r.get('cobertura_deseada', 100) < 100 \
               else f"cubriendo el **100%** del consumo de {r['mes_diseno']}"

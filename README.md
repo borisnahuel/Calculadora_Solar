@@ -42,7 +42,7 @@ Requiere Python 3.9 o superior.
 git clone https://github.com/borisnahuel/Calculadora_Solar.git
 cd Calculadora_Solar
 pip install -r requirements.txt
-streamlit run app_boris_ula.py
+ python -m streamlit run app_boris_ula.py
 ```
 
 Necesita conexión a internet para consultar NASA POWER y cargar el mapa.
